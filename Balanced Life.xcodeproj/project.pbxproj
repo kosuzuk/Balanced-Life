@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE503999CE3D105CA642C99 /* Pods_Balanced_LifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A957C7A6ADD91CBCE45FA4 /* Pods_Balanced_LifeTests.framework */; };
+		600F444F24E8F0C100AF8187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F444E24E8F0C100AF8187 /* AppDelegate.swift */; };
+		600F445124E8F0C100AF8187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F445024E8F0C100AF8187 /* SceneDelegate.swift */; };
+		600F445324E8F0C100AF8187 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F445224E8F0C100AF8187 /* MainVC.swift */; };
+		600F445624E8F0C100AF8187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600F445424E8F0C100AF8187 /* Main.storyboard */; };
+		600F445924E8F0C100AF8187 /* Balanced_Life.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 600F445724E8F0C100AF8187 /* Balanced_Life.xcdatamodeld */; };
+		600F445B24E8F0CB00AF8187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600F445A24E8F0CB00AF8187 /* Assets.xcassets */; };
+		600F445E24E8F0CB00AF8187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600F445C24E8F0CB00AF8187 /* LaunchScreen.storyboard */; };
+		600F446924E8F0CB00AF8187 /* Balanced_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F446824E8F0CB00AF8187 /* Balanced_LifeTests.swift */; };
+		600F447824E8FDFF00AF8187 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F447724E8FDFF00AF8187 /* CalendarCell.swift */; };
+		600F447A24E9B55200AF8187 /* MealsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F447924E9B55200AF8187 /* MealsVC.swift */; };
+		600F447C24E9B5E000AF8187 /* MealInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F447B24E9B5E000AF8187 /* MealInfoVC.swift */; };
+		600F447E24E9B68500AF8187 /* MealEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F447D24E9B68500AF8187 /* MealEditVC.swift */; };
+		600F448024EA44BE00AF8187 /* InfoNutrientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F447F24EA44BE00AF8187 /* InfoNutrientsTableViewCell.swift */; };
+		600F448224EA44D200AF8187 /* EditNutrientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F448124EA44D200AF8187 /* EditNutrientsTableViewCell.swift */; };
+		609B9D9D24EC9B8E00D2BA5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609B9D9C24EC9B8E00D2BA5E /* GoogleService-Info.plist */; };
+		60DB013424EF83EB00403C04 /* nutritionCheckerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DB013324EF83EB00403C04 /* nutritionCheckerVC.swift */; };
+		FCFFDE61F16309192874A102 /* Pods_Balanced_Life.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8328FFD628E8D088407B9FE8 /* Pods_Balanced_Life.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		600F446524E8F0CB00AF8187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 600F444324E8F0C100AF8187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600F444A24E8F0C100AF8187;
+			remoteInfo = "Balanced Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1752810BF462BD9F60ECEFB0 /* Pods-Balanced Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balanced Life.debug.xcconfig"; path = "Target Support Files/Pods-Balanced Life/Pods-Balanced Life.debug.xcconfig"; sourceTree = "<group>"; };
+		2E09DB8BA7D7ED730D2C4B5B /* Pods-Balanced Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balanced Life.release.xcconfig"; path = "Target Support Files/Pods-Balanced Life/Pods-Balanced Life.release.xcconfig"; sourceTree = "<group>"; };
+		549C5AA914ADF3DC3F5E3FD9 /* Pods-Balanced LifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balanced LifeTests.release.xcconfig"; path = "Target Support Files/Pods-Balanced LifeTests/Pods-Balanced LifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		600F444B24E8F0C100AF8187 /* Balanced Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Balanced Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600F444E24E8F0C100AF8187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		600F445024E8F0C100AF8187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		600F445224E8F0C100AF8187 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		600F445524E8F0C100AF8187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		600F445824E8F0C100AF8187 /* Balanced_Life.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Balanced_Life.xcdatamodel; sourceTree = "<group>"; };
+		600F445A24E8F0CB00AF8187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600F445D24E8F0CB00AF8187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		600F445F24E8F0CB00AF8187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600F446424E8F0CB00AF8187 /* Balanced LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Balanced LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600F446824E8F0CB00AF8187 /* Balanced_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balanced_LifeTests.swift; sourceTree = "<group>"; };
+		600F446A24E8F0CB00AF8187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600F447724E8FDFF00AF8187 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		600F447924E9B55200AF8187 /* MealsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsVC.swift; sourceTree = "<group>"; };
+		600F447B24E9B5E000AF8187 /* MealInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInfoVC.swift; sourceTree = "<group>"; };
+		600F447D24E9B68500AF8187 /* MealEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEditVC.swift; sourceTree = "<group>"; };
+		600F447F24EA44BE00AF8187 /* InfoNutrientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoNutrientsTableViewCell.swift; sourceTree = "<group>"; };
+		600F448124EA44D200AF8187 /* EditNutrientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNutrientsTableViewCell.swift; sourceTree = "<group>"; };
+		609B9D9C24EC9B8E00D2BA5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		60DB013324EF83EB00403C04 /* nutritionCheckerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionCheckerVC.swift; sourceTree = "<group>"; };
+		61A957C7A6ADD91CBCE45FA4 /* Pods_Balanced_LifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Balanced_LifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8328FFD628E8D088407B9FE8 /* Pods_Balanced_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Balanced_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BFEB81F6EE4CE17C9D01B3 /* Pods-Balanced LifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balanced LifeTests.debug.xcconfig"; path = "Target Support Files/Pods-Balanced LifeTests/Pods-Balanced LifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600F444824E8F0C100AF8187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFDE61F16309192874A102 /* Pods_Balanced_Life.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600F446124E8F0CB00AF8187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE503999CE3D105CA642C99 /* Pods_Balanced_LifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600F444224E8F0C100AF8187 = {
+			isa = PBXGroup;
+			children = (
+				600F444D24E8F0C100AF8187 /* Balanced Life */,
+				600F446724E8F0CB00AF8187 /* Balanced LifeTests */,
+				600F444C24E8F0C100AF8187 /* Products */,
+				864E7910DAB403E7547C39D2 /* Pods */,
+				9B662C3E6CBAC515AC766BE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		600F444C24E8F0C100AF8187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600F444B24E8F0C100AF8187 /* Balanced Life.app */,
+				600F446424E8F0CB00AF8187 /* Balanced LifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600F444D24E8F0C100AF8187 /* Balanced Life */ = {
+			isa = PBXGroup;
+			children = (
+				600F444E24E8F0C100AF8187 /* AppDelegate.swift */,
+				600F445024E8F0C100AF8187 /* SceneDelegate.swift */,
+				600F445224E8F0C100AF8187 /* MainVC.swift */,
+				600F447724E8FDFF00AF8187 /* CalendarCell.swift */,
+				600F447924E9B55200AF8187 /* MealsVC.swift */,
+				600F447B24E9B5E000AF8187 /* MealInfoVC.swift */,
+				600F447F24EA44BE00AF8187 /* InfoNutrientsTableViewCell.swift */,
+				600F447D24E9B68500AF8187 /* MealEditVC.swift */,
+				600F448124EA44D200AF8187 /* EditNutrientsTableViewCell.swift */,
+				60DB013324EF83EB00403C04 /* nutritionCheckerVC.swift */,
+				600F445424E8F0C100AF8187 /* Main.storyboard */,
+				600F445A24E8F0CB00AF8187 /* Assets.xcassets */,
+				600F445C24E8F0CB00AF8187 /* LaunchScreen.storyboard */,
+				600F445F24E8F0CB00AF8187 /* Info.plist */,
+				609B9D9C24EC9B8E00D2BA5E /* GoogleService-Info.plist */,
+				600F445724E8F0C100AF8187 /* Balanced_Life.xcdatamodeld */,
+			);
+			path = "Balanced Life";
+			sourceTree = "<group>";
+		};
+		600F446724E8F0CB00AF8187 /* Balanced LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				600F446824E8F0CB00AF8187 /* Balanced_LifeTests.swift */,
+				600F446A24E8F0CB00AF8187 /* Info.plist */,
+			);
+			path = "Balanced LifeTests";
+			sourceTree = "<group>";
+		};
+		864E7910DAB403E7547C39D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1752810BF462BD9F60ECEFB0 /* Pods-Balanced Life.debug.xcconfig */,
+				2E09DB8BA7D7ED730D2C4B5B /* Pods-Balanced Life.release.xcconfig */,
+				A8BFEB81F6EE4CE17C9D01B3 /* Pods-Balanced LifeTests.debug.xcconfig */,
+				549C5AA914ADF3DC3F5E3FD9 /* Pods-Balanced LifeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B662C3E6CBAC515AC766BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8328FFD628E8D088407B9FE8 /* Pods_Balanced_Life.framework */,
+				61A957C7A6ADD91CBCE45FA4 /* Pods_Balanced_LifeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600F444A24E8F0C100AF8187 /* Balanced Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600F446D24E8F0CB00AF8187 /* Build configuration list for PBXNativeTarget "Balanced Life" */;
+			buildPhases = (
+				4FB1A0B84E3F2B3D5D65CBA0 /* [CP] Check Pods Manifest.lock */,
+				600F444724E8F0C100AF8187 /* Sources */,
+				600F444824E8F0C100AF8187 /* Frameworks */,
+				600F444924E8F0C100AF8187 /* Resources */,
+				600F8C6CA3FFD5214CADA958 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Balanced Life";
+			productName = "Balanced Life";
+			productReference = 600F444B24E8F0C100AF8187 /* Balanced Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		600F446324E8F0CB00AF8187 /* Balanced LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600F447024E8F0CB00AF8187 /* Build configuration list for PBXNativeTarget "Balanced LifeTests" */;
+			buildPhases = (
+				67BE3CED16EEB21BB1915BAF /* [CP] Check Pods Manifest.lock */,
+				600F446024E8F0CB00AF8187 /* Sources */,
+				600F446124E8F0CB00AF8187 /* Frameworks */,
+				600F446224E8F0CB00AF8187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				600F446624E8F0CB00AF8187 /* PBXTargetDependency */,
+			);
+			name = "Balanced LifeTests";
+			productName = "Balanced LifeTests";
+			productReference = 600F446424E8F0CB00AF8187 /* Balanced LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600F444324E8F0C100AF8187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Koso Suzuki";
+				TargetAttributes = {
+					600F444A24E8F0C100AF8187 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					600F446324E8F0CB00AF8187 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 600F444A24E8F0C100AF8187;
+					};
+				};
+			};
+			buildConfigurationList = 600F444624E8F0C100AF8187 /* Build configuration list for PBXProject "Balanced Life" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600F444224E8F0C100AF8187;
+			productRefGroup = 600F444C24E8F0C100AF8187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600F444A24E8F0C100AF8187 /* Balanced Life */,
+				600F446324E8F0CB00AF8187 /* Balanced LifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600F444924E8F0C100AF8187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600F445E24E8F0CB00AF8187 /* LaunchScreen.storyboard in Resources */,
+				609B9D9D24EC9B8E00D2BA5E /* GoogleService-Info.plist in Resources */,
+				600F445B24E8F0CB00AF8187 /* Assets.xcassets in Resources */,
+				600F445624E8F0C100AF8187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600F446224E8F0CB00AF8187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB1A0B84E3F2B3D5D65CBA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Balanced Life-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600F8C6CA3FFD5214CADA958 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Balanced Life/Pods-Balanced Life-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Balanced Life/Pods-Balanced Life-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Balanced Life/Pods-Balanced Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67BE3CED16EEB21BB1915BAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Balanced LifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600F444724E8F0C100AF8187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600F445324E8F0C100AF8187 /* MainVC.swift in Sources */,
+				600F447E24E9B68500AF8187 /* MealEditVC.swift in Sources */,
+				600F447A24E9B55200AF8187 /* MealsVC.swift in Sources */,
+				60DB013424EF83EB00403C04 /* nutritionCheckerVC.swift in Sources */,
+				600F444F24E8F0C100AF8187 /* AppDelegate.swift in Sources */,
+				600F448224EA44D200AF8187 /* EditNutrientsTableViewCell.swift in Sources */,
+				600F445124E8F0C100AF8187 /* SceneDelegate.swift in Sources */,
+				600F447C24E9B5E000AF8187 /* MealInfoVC.swift in Sources */,
+				600F448024EA44BE00AF8187 /* InfoNutrientsTableViewCell.swift in Sources */,
+				600F445924E8F0C100AF8187 /* Balanced_Life.xcdatamodeld in Sources */,
+				600F447824E8FDFF00AF8187 /* CalendarCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600F446024E8F0CB00AF8187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600F446924E8F0CB00AF8187 /* Balanced_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		600F446624E8F0CB00AF8187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 600F444A24E8F0C100AF8187 /* Balanced Life */;
+			targetProxy = 600F446524E8F0CB00AF8187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		600F445424E8F0C100AF8187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600F445524E8F0C100AF8187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		600F445C24E8F0CB00AF8187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600F445D24E8F0CB00AF8187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600F446B24E8F0CB00AF8187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600F446C24E8F0CB00AF8187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600F446E24E8F0CB00AF8187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1752810BF462BD9F60ECEFB0 /* Pods-Balanced Life.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU55D7J68G;
+				INFOPLIST_FILE = "Balanced Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koso-suzuki.Balanced-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		600F446F24E8F0CB00AF8187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E09DB8BA7D7ED730D2C4B5B /* Pods-Balanced Life.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU55D7J68G;
+				INFOPLIST_FILE = "Balanced Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koso-suzuki.Balanced-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		600F447124E8F0CB00AF8187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BFEB81F6EE4CE17C9D01B3 /* Pods-Balanced LifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU55D7J68G;
+				INFOPLIST_FILE = "Balanced LifeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koso-suzuki.Balanced-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balanced Life.app/Balanced Life";
+			};
+			name = Debug;
+		};
+		600F447224E8F0CB00AF8187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549C5AA914ADF3DC3F5E3FD9 /* Pods-Balanced LifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU55D7J68G;
+				INFOPLIST_FILE = "Balanced LifeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koso-suzuki.Balanced-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balanced Life.app/Balanced Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600F444624E8F0C100AF8187 /* Build configuration list for PBXProject "Balanced Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600F446B24E8F0CB00AF8187 /* Debug */,
+				600F446C24E8F0CB00AF8187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600F446D24E8F0CB00AF8187 /* Build configuration list for PBXNativeTarget "Balanced Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600F446E24E8F0CB00AF8187 /* Debug */,
+				600F446F24E8F0CB00AF8187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600F447024E8F0CB00AF8187 /* Build configuration list for PBXNativeTarget "Balanced LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600F447124E8F0CB00AF8187 /* Debug */,
+				600F447224E8F0CB00AF8187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		600F445724E8F0C100AF8187 /* Balanced_Life.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				600F445824E8F0C100AF8187 /* Balanced_Life.xcdatamodel */,
+			);
+			currentVersion = 600F445824E8F0C100AF8187 /* Balanced_Life.xcdatamodel */;
+			path = Balanced_Life.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 600F444324E8F0C100AF8187 /* Project object */;
+}
